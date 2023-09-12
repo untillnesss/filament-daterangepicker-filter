@@ -108,6 +108,7 @@
                         wire:key="{{ $name }}.container"
                     >
                         <x-filament::input
+                            :valid="! $errors->has($name)"
                             x-ref="daterange"
                             wire:key="{{ $this->id() }}.{{ $statePath }}.{{ $field::class }}.display-text"
                             :attributes="\Filament\Support\prepare_inherited_attributes(

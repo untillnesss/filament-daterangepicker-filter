@@ -103,7 +103,7 @@
                     class="w-full"
                 >
                     <div
-                        class="relative inline-block w-full bg-white dark:bg-white/5"
+                        class="relative inline-block w-full bg-white dark:bg-white/5 px-0"
                         id="{{ $name }}.container"
                         wire:key="{{ $name }}.container"
                     >
